@@ -7,6 +7,7 @@ The current ECE Store website can be rather difficult to use; it has no search f
 Features implemented
 --------------------
   * No front-end features done yet
+
 Features to implement
 ---------------------
   * Search
