@@ -13,4 +13,3 @@ Features to implement
   * Search
   * Sorting results by Field
   * SMS/ Email list of product ID's to yourself for reference when in store purchasing
-hi

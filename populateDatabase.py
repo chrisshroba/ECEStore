@@ -16,6 +16,7 @@ collection = db.catalog
 
 
 
+
 def getCategoryPages():
 	ret = []
 	searchString = "https://storesserver.ece.illinois.edu/4dcgi/catalog/fromcatalog"
