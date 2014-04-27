@@ -1,0 +1,31 @@
+<html>
+
+<head>
+	<title>
+		{{query}}
+	</title>
+</head>
+
+<body>
+{{#results}}
+<table id="resultstable">
+
+<tr><td>Barcode</td> <td>Part Number</td> <td>Description</td> <td>Manufacturer</td> <td>Price</td></tr>
+
+
+
+{{/results}}
+
+{{#results}}
+
+<tr><td>{{barcode}}</td> <td>{{part_number}}</td> <td>{{description}}</td> <td>{{manufacturer}}</td> <td>{{price}}</td></tr>
+{{/results}}
+
+{{#results}}
+</table>
+{{/results}}
+
+{{^results}}
+No results were generated.
+{{/results}}
+</body>
